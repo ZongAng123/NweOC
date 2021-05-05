@@ -1,0 +1,15 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git’
+platform :ios, '10.0'
+
+target 'NewOC' do
+  use_frameworks!
+
+pod 'Masonry'
+pod 'YTKNetwork' 
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+
+end

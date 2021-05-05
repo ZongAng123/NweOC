@@ -3,12 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A18E2C0EEFA08D212BB5FC3 /* Pods_NewOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FE7BFEA88155E23C8A9C72 /* Pods_NewOC.framework */; };
+		74061B542641F85F00340474 /* ZABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B532641F85F00340474 /* ZABaseObject.m */; };
+		74061B582641F8AF00340474 /* NewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B572641F8AF00340474 /* NewModel.m */; };
+		74061B5C2641F9B000340474 /* ZAFileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B5B2641F9B000340474 /* ZAFileTableViewCell.m */; };
+		74061B5F2641F9D400340474 /* ZABaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B5E2641F9D400340474 /* ZABaseLabel.m */; };
+		74061B622641FA9A00340474 /* ZAPublicFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B612641FA9A00340474 /* ZAPublicFunction.m */; };
+		74061B662641FDE500340474 /* ZAUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 74061B652641FDE500340474 /* ZAUnicode.m */; };
 		7459F715264156D200D6BDCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F714264156D200D6BDCF /* AppDelegate.m */; };
-		7459F718264156D200D6BDCF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F717264156D200D6BDCF /* SceneDelegate.m */; };
 		7459F71B264156D200D6BDCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F71A264156D200D6BDCF /* ViewController.m */; };
 		7459F71E264156D200D6BDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7459F71C264156D200D6BDCF /* Main.storyboard */; };
 		7459F720264156D500D6BDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7459F71F264156D500D6BDCF /* Assets.xcassets */; };
@@ -16,6 +22,9 @@
 		7459F726264156D500D6BDCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F725264156D500D6BDCF /* main.m */; };
 		7459F730264156D500D6BDCF /* NewOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F72F264156D500D6BDCF /* NewOCTests.m */; };
 		7459F73B264156D500D6BDCF /* NewOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F73A264156D500D6BDCF /* NewOCUITests.m */; };
+		7459F74C26415AF300D6BDCF /* ZARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F74B26415AF300D6BDCF /* ZARequest.m */; };
+		7459F75026415CFA00D6BDCF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F74F26415CFA00D6BDCF /* HomeViewController.m */; };
+		7459F75426415D1000D6BDCF /* HomeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7459F75326415D1000D6BDCF /* HomeApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29FE7BFEA88155E23C8A9C72 /* Pods_NewOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581082B30E03B9BFDA63C572 /* Pods-NewOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewOC.release.xcconfig"; path = "Target Support Files/Pods-NewOC/Pods-NewOC.release.xcconfig"; sourceTree = "<group>"; };
+		74061B522641F85F00340474 /* ZABaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZABaseObject.h; sourceTree = "<group>"; };
+		74061B532641F85F00340474 /* ZABaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZABaseObject.m; sourceTree = "<group>"; };
+		74061B562641F8AF00340474 /* NewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewModel.h; sourceTree = "<group>"; };
+		74061B572641F8AF00340474 /* NewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewModel.m; sourceTree = "<group>"; };
+		74061B5A2641F9B000340474 /* ZAFileTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAFileTableViewCell.h; sourceTree = "<group>"; };
+		74061B5B2641F9B000340474 /* ZAFileTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAFileTableViewCell.m; sourceTree = "<group>"; };
+		74061B5D2641F9D400340474 /* ZABaseLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZABaseLabel.h; sourceTree = "<group>"; };
+		74061B5E2641F9D400340474 /* ZABaseLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZABaseLabel.m; sourceTree = "<group>"; };
+		74061B602641FA9A00340474 /* ZAPublicFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAPublicFunction.h; sourceTree = "<group>"; };
+		74061B612641FA9A00340474 /* ZAPublicFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAPublicFunction.m; sourceTree = "<group>"; };
+		74061B642641FDE500340474 /* ZAUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAUnicode.h; sourceTree = "<group>"; };
+		74061B652641FDE500340474 /* ZAUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAUnicode.m; sourceTree = "<group>"; };
 		7459F710264156D200D6BDCF /* NewOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7459F713264156D200D6BDCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7459F714264156D200D6BDCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7459F716264156D200D6BDCF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7459F717264156D200D6BDCF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		7459F719264156D200D6BDCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7459F71A264156D200D6BDCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7459F71D264156D200D6BDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +75,14 @@
 		7459F736264156D500D6BDCF /* NewOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7459F73A264156D500D6BDCF /* NewOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewOCUITests.m; sourceTree = "<group>"; };
 		7459F73C264156D500D6BDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7459F748264157DD00D6BDCF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7459F74A26415AF300D6BDCF /* ZARequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZARequest.h; sourceTree = "<group>"; };
+		7459F74B26415AF300D6BDCF /* ZARequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZARequest.m; sourceTree = "<group>"; };
+		7459F74E26415CFA00D6BDCF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7459F74F26415CFA00D6BDCF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7459F75226415D1000D6BDCF /* HomeApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeApi.h; sourceTree = "<group>"; };
+		7459F75326415D1000D6BDCF /* HomeApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeApi.m; sourceTree = "<group>"; };
+		8C5B56E6CD020CBCCF93D496 /* Pods-NewOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewOC.debug.xcconfig"; path = "Target Support Files/Pods-NewOC/Pods-NewOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A18E2C0EEFA08D212BB5FC3 /* Pods_NewOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32DE245841EF22E99F7D0F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FE7BFEA88155E23C8A9C72 /* Pods_NewOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74061B502641F83800340474 /* 基础控件 */ = {
+			isa = PBXGroup;
+			children = (
+				74061B632641FDBA00340474 /* Uncode */,
+				74061B512641F84600340474 /* 基础类 */,
+			);
+			path = "基础控件";
+			sourceTree = "<group>";
+		};
+		74061B512641F84600340474 /* 基础类 */ = {
+			isa = PBXGroup;
+			children = (
+				74061B522641F85F00340474 /* ZABaseObject.h */,
+				74061B532641F85F00340474 /* ZABaseObject.m */,
+				74061B5D2641F9D400340474 /* ZABaseLabel.h */,
+				74061B5E2641F9D400340474 /* ZABaseLabel.m */,
+				74061B602641FA9A00340474 /* ZAPublicFunction.h */,
+				74061B612641FA9A00340474 /* ZAPublicFunction.m */,
+			);
+			path = "基础类";
+			sourceTree = "<group>";
+		};
+		74061B552641F89900340474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74061B562641F8AF00340474 /* NewModel.h */,
+				74061B572641F8AF00340474 /* NewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74061B592641F99100340474 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				74061B5A2641F9B000340474 /* ZAFileTableViewCell.h */,
+				74061B5B2641F9B000340474 /* ZAFileTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		74061B632641FDBA00340474 /* Uncode */ = {
+			isa = PBXGroup;
+			children = (
+				74061B642641FDE500340474 /* ZAUnicode.h */,
+				74061B652641FDE500340474 /* ZAUnicode.m */,
+			);
+			path = Uncode;
+			sourceTree = "<group>";
+		};
 		7459F707264156D200D6BDCF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +175,8 @@
 				7459F72E264156D500D6BDCF /* NewOCTests */,
 				7459F739264156D500D6BDCF /* NewOCUITests */,
 				7459F711264156D200D6BDCF /* Products */,
+				F6D30E5627C75634D0F24C93 /* Pods */,
+				32DE245841EF22E99F7D0F1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +193,15 @@
 		7459F712264156D200D6BDCF /* NewOC */ = {
 			isa = PBXGroup;
 			children = (
+				74061B502641F83800340474 /* 基础控件 */,
+				7459F75126415D0200D6BDCF /* Api */,
+				7459F74D26415CDD00D6BDCF /* 首页 */,
+				7459F74926415AD200D6BDCF /* 网络请求封装 */,
 				7459F713264156D200D6BDCF /* AppDelegate.h */,
 				7459F714264156D200D6BDCF /* AppDelegate.m */,
-				7459F716264156D200D6BDCF /* SceneDelegate.h */,
-				7459F717264156D200D6BDCF /* SceneDelegate.m */,
 				7459F719264156D200D6BDCF /* ViewController.h */,
 				7459F71A264156D200D6BDCF /* ViewController.m */,
+				7459F748264157DD00D6BDCF /* PrefixHeader.pch */,
 				7459F71C264156D200D6BDCF /* Main.storyboard */,
 				7459F71F264156D500D6BDCF /* Assets.xcassets */,
 				7459F721264156D500D6BDCF /* LaunchScreen.storyboard */,
@@ -137,6 +229,44 @@
 			path = NewOCUITests;
 			sourceTree = "<group>";
 		};
+		7459F74926415AD200D6BDCF /* 网络请求封装 */ = {
+			isa = PBXGroup;
+			children = (
+				7459F74A26415AF300D6BDCF /* ZARequest.h */,
+				7459F74B26415AF300D6BDCF /* ZARequest.m */,
+			);
+			path = "网络请求封装";
+			sourceTree = "<group>";
+		};
+		7459F74D26415CDD00D6BDCF /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				74061B592641F99100340474 /* Cell */,
+				74061B552641F89900340474 /* Model */,
+				7459F74E26415CFA00D6BDCF /* HomeViewController.h */,
+				7459F74F26415CFA00D6BDCF /* HomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		7459F75126415D0200D6BDCF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				7459F75226415D1000D6BDCF /* HomeApi.h */,
+				7459F75326415D1000D6BDCF /* HomeApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F6D30E5627C75634D0F24C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B56E6CD020CBCCF93D496 /* Pods-NewOC.debug.xcconfig */,
+				581082B30E03B9BFDA63C572 /* Pods-NewOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7459F73F264156D500D6BDCF /* Build configuration list for PBXNativeTarget "NewOC" */;
 			buildPhases = (
+				A417BE49CBE3D85F45D2AB14 /* [CP] Check Pods Manifest.lock */,
 				7459F70C264156D200D6BDCF /* Sources */,
 				7459F70D264156D200D6BDCF /* Frameworks */,
 				7459F70E264156D200D6BDCF /* Resources */,
+				44FB89B8CEBC3592CC6B3474 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +393,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44FB89B8CEBC3592CC6B3474 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewOC/Pods-NewOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewOC/Pods-NewOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewOC/Pods-NewOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A417BE49CBE3D85F45D2AB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7459F70C264156D200D6BDCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74061B662641FDE500340474 /* ZAUnicode.m in Sources */,
+				74061B582641F8AF00340474 /* NewModel.m in Sources */,
+				74061B622641FA9A00340474 /* ZAPublicFunction.m in Sources */,
+				74061B542641F85F00340474 /* ZABaseObject.m in Sources */,
+				74061B5F2641F9D400340474 /* ZABaseLabel.m in Sources */,
 				7459F71B264156D200D6BDCF /* ViewController.m in Sources */,
 				7459F715264156D200D6BDCF /* AppDelegate.m in Sources */,
+				7459F74C26415AF300D6BDCF /* ZARequest.m in Sources */,
+				7459F75026415CFA00D6BDCF /* HomeViewController.m in Sources */,
 				7459F726264156D500D6BDCF /* main.m in Sources */,
-				7459F718264156D200D6BDCF /* SceneDelegate.m in Sources */,
+				74061B5C2641F9B000340474 /* ZAFileTableViewCell.m in Sources */,
+				7459F75426415D1000D6BDCF /* HomeApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,37 +620,43 @@
 		};
 		7459F740264156D500D6BDCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5B56E6CD020CBCCF93D496 /* Pods-NewOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NewOC/PrefixHeader.pch";
 				INFOPLIST_FILE = NewOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.NewOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7459F741264156D500D6BDCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581082B30E03B9BFDA63C572 /* Pods-NewOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8J962WWSV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NewOC/PrefixHeader.pch";
 				INFOPLIST_FILE = NewOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.NewOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
